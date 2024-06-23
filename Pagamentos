@@ -102,7 +102,7 @@ document.getElementById('ver-historico').addEventListener('click', function() {
 document.getElementById('gerar-qrcode').addEventListener('click', function() {
     const qrcodeDiv = document.getElementById('qrcode');
     qrcodeDiv.innerHTML = `
-        <img src="https://via.placeholder.com/150" alt="QR Code">
+       <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FC%25C3%25B3digo_QR&psig=AOvVaw2J1rxN5DhYNmgxRSD8DyI1&ust=1719264518902000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMD-o8nV8oYDFQAAAAAdAAAAABAE" alt="QR Code">
         <p>Escaneie este QR Code para efetuar o pagamento via PIX.</p>
     `;
 });
