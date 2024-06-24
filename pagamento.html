@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pagamentos</h1>
+    </header>
+    <main>
+        <section id="historico-transacoes">
+            <h2>Histórico de Transações</h2>
+            <p>Registra o histórico de transações, valor da transação, o método de pagamento, entre outros.</p>
+            <button id="ver-historico">Histórico de Transações</button>
+            <div id="historico"></div>
+        </section>
+        
+        <section id="integracao-pix">
+            <h2>Integração com PIX</h2>
+            <p>QR code para efetuar o pagamento da transação e atualizar a transação.</p>
+            <button id="gerar-qrcode">Gerar QR Code</button>
+            <div id="qrcode"></div>
+        </section>
+
+        <section id="integracao-cartao">
+            <h2>Integração com Provedores de Cartão de Créditos</h2>
+            <p>Possibilita a integração com provedores de cartão de créditos e pagamento (Ex: Google Pay, Apple Pay, PayPal, Stripe, etc).</p>
+            <button id="integrar-cartao">Integrar Cartão</button>
+            <div id="provedores"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
