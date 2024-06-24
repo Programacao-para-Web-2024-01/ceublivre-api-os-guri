@@ -4,7 +4,6 @@ document.getElementById('ver-historico').addEventListener('click', function() {
         <ul>
             <li>Transação 1: R$ 100,00 - Cartão de Crédito</li>
             <li>Transação 2: R$ 50,00 - PIX</li>
-            <!-- Adicione mais transações aqui -->
         </ul>
     `;
 });
@@ -25,7 +24,6 @@ document.getElementById('integrar-cartao').addEventListener('click', function() 
             <li>Apple Pay</li>
             <li>PayPal</li>
             <li>Stripe</li>
-            <!-- Adicione mais provedores aqui -->
         </ul>
     `;
 });
